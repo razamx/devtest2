@@ -1,8 +1,0 @@
-
-FROM centos:centos7.9.2009
-RUN mkdir /home/tcc
-WORKDIR /home/tcc
-COPY command.sh /home/tcc
-RUN chmod +x ./command.sh
-RUN ./command.sh -x -f ./
-

@@ -22,8 +22,8 @@ printf "%s\n%s\n%s\n%s\n%s\n%s\n" \
 "${dirBuildSource}/libraries.compute.tcc-tools.docs/" \
 "${dirBuildSource}/libraries.compute.tcc-tools.infrastructure/"
 
-$ chmod -R 777 ${dirBuildSource}/build* ${dirBuildSource}/libraries*
-$ chmod -R 755 ${dirBuildSource}/2021.3.0
+#$ chmod -R 777 ${dirBuildSource}/build* ${dirBuildSource}/libraries*
+#$ chmod -R 755 ${dirBuildSource}/2021.3.0
 
 dirBuildRoot=./
 #home/tcc/build
